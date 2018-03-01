@@ -1,4 +1,4 @@
-#include "cuda.h"
+#include "cuda_runtime.h"
 #include <cstdio>
 #include <cstdlib>
 #include "SyncedMemory.h"
@@ -76,6 +76,5 @@ int main(int argc, char **argv)
 
 	puts(frame_smem.get_cpu_ro());
 	CHECK;
-	system("pause");
 	return 0;
 }
