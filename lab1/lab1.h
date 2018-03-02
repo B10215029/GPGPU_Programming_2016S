@@ -1,4 +1,6 @@
 #pragma once
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 #include <cstdint>
 #include <memory>
 using std::unique_ptr;
